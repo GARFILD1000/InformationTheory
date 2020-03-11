@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b26712c-34e4-421c-9f7c-45a42b7856e0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y3eFnBliVWUuwwgTX4SAmkSu7M" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.enthropy.entropy" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.example.enthropy.entropy" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/com/example/enthropy/entropy" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="com.example.enthropy.Main" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="ShanonEnthropy.main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.example.enthropy.Main" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.com.example.enthropy.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b26712c-34e4-421c-9f7c-45a42b7856e0" name="Default Changelist" comment="" />
+      <created>1582175603904</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582175603904</updated>
+      <workItem from="1582175610365" duration="15404000" />
+      <workItem from="1582198561099" duration="148000" />
+      <workItem from="1582198737578" duration="63000" />
+      <workItem from="1582198837333" duration="4995000" />
+      <workItem from="1582728861936" duration="733000" />
+      <workItem from="1582736328107" duration="13234000" />
+      <workItem from="1582781993962" duration="8993000" />
+      <workItem from="1582817061608" duration="9767000" />
+      <workItem from="1583381825053" duration="7177000" />
+      <workItem from="1583397087356" duration="2435000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="382" y="34" width="594" height="674" key="#com.example.enthropy.Main" timestamp="1582198584730">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state x="382" y="34" width="594" height="674" key="#com.example.enthropy.Main/0.0.1366.742@0.0.1366.742" timestamp="1582198584730" />
+    <state x="130" y="58" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582199276397">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state x="130" y="58" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.742@0.0.1366.742" timestamp="1582199276397" />
+    <state x="469" y="90" width="420" height="561" key="#com.intellij.ide.util.MemberChooser" timestamp="1582823364892">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state x="469" y="90" width="420" height="561" key="#com.intellij.ide.util.MemberChooser/0.0.1366.742@0.0.1366.742" timestamp="1582823364892" />
+    <state x="415" y="158" width="527" height="425" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582198644425">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state x="415" y="158" width="527" height="425" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.742@0.0.1366.742" timestamp="1582198644425" />
+    <state x="455" y="28" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1582739307919">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state x="455" y="28" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1366.742@0.0.1366.742" timestamp="1582739307919" />
+    <state x="461" y="128" width="426" height="483" key="FileChooserDialogImpl" timestamp="1582734565161">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state x="461" y="128" width="426" height="483" key="FileChooserDialogImpl/0.0.1366.742@0.0.1366.742" timestamp="1582734565161" />
+    <state width="1324" height="370" key="GridCell.Tab.0.bottom" timestamp="1583429787561">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state width="1324" height="370" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1583429787561" />
+    <state width="1324" height="370" key="GridCell.Tab.0.center" timestamp="1583429787558">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state width="1324" height="370" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1583429787558" />
+    <state width="1324" height="370" key="GridCell.Tab.0.left" timestamp="1583429787557">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state width="1324" height="370" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1583429787557" />
+    <state width="1324" height="370" key="GridCell.Tab.0.right" timestamp="1583429787559">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state width="1324" height="370" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1583429787559" />
+    <state width="1324" height="370" key="GridCell.Tab.1.bottom" timestamp="1583429787567">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state width="1324" height="370" key="GridCell.Tab.1.bottom/0.0.1366.742@0.0.1366.742" timestamp="1583429787567" />
+    <state width="1324" height="370" key="GridCell.Tab.1.center" timestamp="1583429787564">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state width="1324" height="370" key="GridCell.Tab.1.center/0.0.1366.742@0.0.1366.742" timestamp="1583429787564" />
+    <state width="1324" height="370" key="GridCell.Tab.1.left" timestamp="1583429787562">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state width="1324" height="370" key="GridCell.Tab.1.left/0.0.1366.742@0.0.1366.742" timestamp="1583429787562" />
+    <state width="1324" height="370" key="GridCell.Tab.1.right" timestamp="1583429787565">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state width="1324" height="370" key="GridCell.Tab.1.right/0.0.1366.742@0.0.1366.742" timestamp="1583429787565" />
+    <state x="362" y="199" key="com.intellij.ide.util.TipDialog" timestamp="1583397087671">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state x="362" y="199" key="com.intellij.ide.util.TipDialog/0.0.1366.742@0.0.1366.742" timestamp="1583397087671" />
+    <state x="10" y="0" width="1337" height="741" key="new project wizard" timestamp="1582734568395">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state x="10" y="0" width="1337" height="741" key="new project wizard/0.0.1366.742@0.0.1366.742" timestamp="1582734568395" />
+    <state x="346" y="63" width="672" height="678" key="search.everywhere.popup" timestamp="1582738981713">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state x="346" y="63" width="672" height="678" key="search.everywhere.popup/0.0.1366.742@0.0.1366.742" timestamp="1582738981713" />
+  </component>
+</project>
