@@ -9,7 +9,7 @@ class Code : Comparable<Code> {
 
     fun hasIn(anotherCode: Code): Boolean {
         var result = true
-        if (anotherCode.bits.size < bits.size) return false
+        if (anotherCode.bits.size < bits.size || anotherCode.bits.size == 0 || bits.size == 0) return false
 
         for (i in bits.indices) {
             if (bits[i] != anotherCode.bits[i]) {

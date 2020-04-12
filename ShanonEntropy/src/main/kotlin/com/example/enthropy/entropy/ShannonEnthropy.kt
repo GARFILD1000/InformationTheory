@@ -23,15 +23,14 @@ class ShannonEntropy {
     val realFilePath = "text/реальный.txt"
 
     fun start() {
-//
         val fileGenerator = FileGenerator(alphabet)
-        fileGenerator.generateWithUniform(uniformFilePath)
+//        fileGenerator.generateWithUniform(uniformFilePath)
         fileGenerator.generateWithProbabilities(probabilitiesFilePath)
 //
-        val fileAnalyser = FileAnalyser(alphabet)
-//        fileAnalyser.analyse(uniformFilePath, 5)
-//        fileAnalyser.analyse(probabilitiesFilePath, 5)
-        fileAnalyser.analyse(realFilePath, 15)
+//        val fileAnalyser = FileAnalyser(alphabet)
+//        fileAnalyser.analyse(uniformFilePath, 2)
+//        fileAnalyser.analyse(probabilitiesFilePath, 2)
+//        fileAnalyser.analyse(realFilePath, 5)
 
 //
 //        val fileAnalyser2 = FileAnalyser(bigAlphabet)

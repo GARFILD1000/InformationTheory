@@ -57,10 +57,17 @@ class FileAnalyser (val alphabet: Alphabet) {
         } catch (ex: Exception) {
             ex.printStackTrace()
         }
+
+//        for (sequence in sequences) {
+//            println("${sequence.key} ${sequence.value}")
+//        }
+
         calcFrequencies()
         calcEntropy(sequenceLength)
 
         println("Entropy for sequence length $sequenceLength is $entropy")
+        val theoreticalEntropy = sequenceLength * log(alphabet.symbols.size.toDouble(), 2.0)
+        println("Theoretical entropy for sequence length $sequenceLength is ${theoreticalEntropy}")
     }
 
     private fun calcFrequencies() {

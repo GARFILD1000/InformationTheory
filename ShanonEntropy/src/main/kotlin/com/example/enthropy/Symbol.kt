@@ -1,9 +1,19 @@
 package com.example.enthropy
 
 import com.example.enthropy.encoding.Code
+import com.example.enthropy.encoding.TextCode
+import kotlin.math.abs
 
 class Symbol() {
-    companion object{
+    companion object {
+        private var DELTA = Double.MIN_VALUE
+        val ZERO = Symbol().apply{
+            value = "0"
+        }
+        val ONE = Symbol().apply{
+            value = "1"
+        }
+
         fun getValueComparator(isIncrement: Boolean = true) = Comparator<Symbol> { p0: Symbol?, p1: Symbol? ->
             val sign = if (isIncrement) 1 else -1
             p0 ?: return@Comparator -1 * sign
@@ -22,8 +32,13 @@ class Symbol() {
     var value = ""
     var probability = 0.0
     var code = Code()
+    var textCode = TextCode()
 
-    constructor(symbol: String): this() {
+    fun probabilityEqualsZero(): Boolean {
+        return abs(probability) < DELTA
+    }
+
+    constructor(symbol: String) : this() {
         value = symbol
     }
 
@@ -31,7 +46,7 @@ class Symbol() {
         return value
     }
 
-
-
-
+    override fun equals(other: Any?): Boolean {
+        return other is Symbol && other.value == this.value
+    }
 }

@@ -13,6 +13,10 @@ open class Alphabet {
     var symbols = LinkedList<Symbol>()
     var pattern = Pattern.compile("")
 
+    fun updatePattern() {
+        pattern = Pattern.compile("[${symbols.joinToString("")}]")
+    }
+
     fun readAlphabet(alphabetFilePath: String) {
         symbols.clear()
         var charsForRegex = LinkedList<String>()
@@ -23,9 +27,9 @@ open class Alphabet {
                 var line = fileReader.nextLine()
                 val char = line.getOrNull(0).toString() ?: ""
                 val symbol = Symbol(char)
-                val charForRegex = when(char) {
-                    "Э" -> "\\" + char
-                    "Ь" -> "\\" + char
+                val charForRegex = when (char) {
+                    "Э" -> "" //"\\" + char
+                    "Ь" -> "" //"\\" + char
                     "[", "]" -> "\\" + char
                     else -> char
                 }
@@ -75,8 +79,22 @@ open class Alphabet {
 
     fun print(comparator: Comparator<Symbol> = Symbol.getValueComparator()) {
         symbols.sortedWith(comparator).forEach {
-            println("${it.value} ${it.probability} ${it.code}")
+            println("${it.value} ${it.probability} ${it.code} ${it.textCode}")
         }
+    }
+
+    fun getCodeAlphabetPower() : Int {
+        return getCodeAlphabetSymbols().size
+    }
+
+    fun getCodeAlphabetSymbols() : Set<Byte> {
+        val differentSymbols = TreeSet<Byte>()
+        for (symbol in symbols) {
+            for (codeSymbol in symbol.code.bits) {
+                differentSymbols.add(codeSymbol)
+            }
+        }
+        return differentSymbols
     }
 
     companion object {
